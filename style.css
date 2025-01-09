@@ -6,6 +6,14 @@ body {
   width: 100%;
 }
 
+.marker-cluster-small {
+  background-color: rgba(25, 63, 228, 0.6);
+}
+
+.marker-cluster-small div {
+  background-color: rgba(25, 63, 228, 0.6);
+}
+
 #map {
   width: 100vw;
   height: 100vh;
