@@ -40,13 +40,17 @@ h6 {
 .leaflet-control-custom {
   padding: 6px 8px;
   background: white;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
   color: #333;
   border-radius: 5px;
 }
 
 .leaflet-control-geocoder {
   z-index: 9999;
+}
+
+.leaflet-attribution-flag {
+  display: none !important;
 }
 
 form {
@@ -64,7 +68,7 @@ form {
   height: 16px;
   float: left;
   margin-right: 8px;
-  border-bottom: 1px solid rgba(0,0,0,0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .leaflet-popup-content {
@@ -147,7 +151,9 @@ form {
  * opacity, so that search, locate, and zoom buttons do not overlay the title,
  * creating an effect as if the title is located on top, and not the left column.
  */
-.leaflet-right .map-title { display: none; }
+.leaflet-right .map-title {
+  display: none;
+}
 
 @media only screen and (max-width: 760px) {
   .leaflet-right .map-title {
@@ -171,7 +177,7 @@ form {
   opacity: 0.9;
   border: 5px #ddd solid;
   border-radius: 5px;
-  font-family: "Helvetica Neue", Arial;
+  font-family: 'Helvetica Neue', Arial;
 }
 
 #mobile-intro-popup p {
@@ -239,7 +245,7 @@ div.dataTables_scrollHead {
 }
 
 .dataTable * {
-  font-family: "Helvetica Neue", Arial;
+  font-family: 'Helvetica Neue', Arial;
   border: 0 !important;
 }
 
@@ -286,6 +292,7 @@ span.legend-icon {
   display: none !important;
 }
 
-.ladder form, .ladder div {
+.ladder form,
+.ladder div {
   display: block;
 }
